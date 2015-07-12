@@ -1,0 +1,43 @@
+{
+  "points":  [
+    {
+      "event": "tm_testrun",
+      "time": "2015-11-10T23:00:00Z",
+      "source": {
+        "server": "http://alm-saas.hp.com",
+        "domain": "IT",
+        "project": "Project A",
+      },
+      "id" : {
+        "instance": "245",
+        "test_id": "34",
+      },
+      "tags": {
+        "workspace": "CRM",
+        "testset": "Regression",
+        "user": "john",
+        "type": "Manual"
+      },
+      "result": {
+        "status": "Passed",
+        "run_time": 380,
+        "steps" : [
+          {
+            "name": "step 1",
+            "status": "Passed",
+            "runt_time": 12
+          },
+          {
+            "name": "step 2",
+            "status": "Skipped"
+          },
+          {
+            "name": "step 3",
+            "status": "Passed",
+            "runt_time": 368
+          },
+        ]
+      }
+    }
+  ]
+}

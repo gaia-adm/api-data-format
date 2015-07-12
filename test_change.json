@@ -1,0 +1,49 @@
+{
+  "event": "test_change",
+  "source": {
+    "server": "http://alm-saas.hp.com",
+    "domain": "IT",
+    "project": "Project A",
+  },
+  "tags": {
+    "workspace": "CRM",
+    "user": "bob",
+  },
+  "points": [
+    {
+      "time": "2015-11-10T23:00:00Z",
+      "id": {
+        "uid": "2341"
+      },
+      "fields": [
+        {
+          "name": "State",
+          "from": "Maintenance",
+          "to": "Ready",
+          "ttc(d)": 11
+        }
+      ]
+    },
+    {
+      "time": "2015-11-11T13:00:00Z",
+      "id": "2341",
+      "steps": [
+        {
+          "new": 10,
+          "modified": 3,
+          "deleted": 1
+        }
+      ]
+    },
+    {
+      "time": "2015-11-11T14:00:00Z",
+      "id": "2341",
+      "attachments": [
+        {
+          "name": "readme.docx",
+          "size": "1.3M",
+        }
+      ]
+    }
+  ]
+}
