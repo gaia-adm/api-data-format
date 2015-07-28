@@ -1,0 +1,19 @@
+{
+    "event": "general",
+    "time": "2015-07-27T23:00:00Z",
+    "source": {
+        "origin": "behind the scene"
+    },
+    "id": {
+        "uid": "12345"
+    },
+    "tags": {
+        "tag1": "foo",
+        "tag2": "boo"
+    },
+    "data": {
+        "field1": "value1",
+        "field2": "value2",
+        "field3": 3
+    }
+}

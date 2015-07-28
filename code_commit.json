@@ -1,28 +1,24 @@
 {
-  "points": [
-    {
-      "event": "code_commit",
-      "time": "2015-11-10T23:00:00Z",
-      "source": {
+    "event": "code_commit",
+    "time": "2015-07-27T23:00:00Z",
+    "source": {
         "repository": "git://github.com/hp/mqm-server",
-        "branch": "master",
-      },
-      "id": {
+        "branch": "master"
+    },
+    "id": {
         "uid": "8ad3535acb2a724eb0058fa071c788d48ab6978e"
-      },
-      "tags": {
-        "user": "alex",
-      },
-      "files": [
+    },
+    "tags": {
+        "user": "alex"
+    },
+    "files": [
         {
-          "file": "README.md",
-          "loc": 10
+            "file": "README.md",
+            "loc": 10
         },
         {
-          "file": " src/main/java/managers/RabbitmqManager.java",
-          "loc": -14
+            "file": " src/main/java/managers/RabbitmqManager.java",
+            "loc": -14
         }
-      ]
-    }
-  ]
+    ]
 }
