@@ -23,7 +23,7 @@ There is a common set of fields for each event type.
 - **id** - A *record id* object: set of attributes that uniquely define record in event source. Generally it is a map of string keys and object values. All values of id elements become data fields in database.
 - **tags** - A set of free tags. Each tag can be used to filter events. Tags cardinality is potentially limited; only elements with the limited set of values should be used as tags. Generally it is a map where both keys and values are string. All values of source elements become tags in database.
 
-Multiple events can be passed in single request as a part of **JSON Array** (even you send only one event); see more details [here]. (https://github.com/gaia-adm/metrics-gateway-service/)
+Multiple events can be passed in single request as a part of **JSON Array** (even you send only one event); see more details [here](https://github.com/gaia-adm/metrics-gateway-service/)
 Every event must include all relevant fields described above, so that it can be sent as single event without changing, if you need.
 
 **Example**:
